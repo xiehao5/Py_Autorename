@@ -16,3 +16,5 @@ eg. Fuck.doc-> Fuck.doc_
 And the Derename.py undo the rename job.
 
 Make Fuck.doc_ back to Fuck.doc
+
+Hope it useful.
