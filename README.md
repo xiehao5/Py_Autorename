@@ -17,4 +17,4 @@ And the Derename.py undo the rename job.
 
 Make Fuck.doc_ back to Fuck.doc
 
-Hope it useful.
+Hope it useful. And fuck the the encrypt software again and again.
