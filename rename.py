@@ -15,9 +15,10 @@ def eachFile(filepath):
         # print(oldDir)
         # if os.path.isdir(oldDir): # 如果是文件夹
         if os.path.isfile(oldDir):  # 如果是文件
-            newDir = oldDir+suffix  # 加后缀
-            os.rename(oldDir,newDir)    #重命名
-            print('Renaming' + oldDir + '->' + newDir)
+            if oldDir[-1] != suffix:   # 是否已有后缀
+                newDir = oldDir+suffix  # 加后缀
+                os.rename(oldDir,newDir)    #重命名
+                print('Renaming' + oldDir + '->' + newDir + '\n')
         else:
             eachFile(oldDir)                #如果不是文件，递归这个文件夹的路径
 
